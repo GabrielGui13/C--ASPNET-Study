@@ -1,0 +1,16 @@
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\bin\Debug\net5.0\Indexers.exe
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\bin\Debug\net5.0\Indexers.deps.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\bin\Debug\net5.0\Indexers.runtimeconfig.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\bin\Debug\net5.0\Indexers.runtimeconfig.dev.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\bin\Debug\net5.0\Indexers.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\bin\Debug\net5.0\ref\Indexers.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\bin\Debug\net5.0\Indexers.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\obj\Debug\net5.0\Indexers.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\obj\Debug\net5.0\Indexers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\obj\Debug\net5.0\Indexers.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\obj\Debug\net5.0\Indexers.AssemblyInfo.cs
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\obj\Debug\net5.0\Indexers.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\obj\Debug\net5.0\Indexers.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\obj\Debug\net5.0\ref\Indexers.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\obj\Debug\net5.0\Indexers.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\Indexers\obj\Debug\net5.0\Indexers.genruntimeconfig.cache
