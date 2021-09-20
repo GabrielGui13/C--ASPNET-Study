@@ -1,0 +1,16 @@
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\obj\Debug\net5.0\Testability.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\obj\Debug\net5.0\Testability.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\obj\Debug\net5.0\Testability.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\obj\Debug\net5.0\Testability.AssemblyInfo.cs
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\obj\Debug\net5.0\Testability.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\bin\Debug\net5.0\Testability.exe
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\bin\Debug\net5.0\Testability.deps.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\bin\Debug\net5.0\Testability.runtimeconfig.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\bin\Debug\net5.0\Testability.runtimeconfig.dev.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\bin\Debug\net5.0\Testability.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\bin\Debug\net5.0\ref\Testability.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\bin\Debug\net5.0\Testability.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\obj\Debug\net5.0\Testability.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\obj\Debug\net5.0\ref\Testability.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\obj\Debug\net5.0\Testability.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Testability\obj\Debug\net5.0\Testability.genruntimeconfig.cache

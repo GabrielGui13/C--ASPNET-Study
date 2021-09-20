@@ -1,0 +1,16 @@
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\obj\Debug\net5.0\Extensibility.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\obj\Debug\net5.0\Extensibility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\obj\Debug\net5.0\Extensibility.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\obj\Debug\net5.0\Extensibility.AssemblyInfo.cs
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\obj\Debug\net5.0\Extensibility.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\bin\Debug\net5.0\Extensibility.exe
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\bin\Debug\net5.0\Extensibility.deps.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\bin\Debug\net5.0\Extensibility.runtimeconfig.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\bin\Debug\net5.0\Extensibility.runtimeconfig.dev.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\bin\Debug\net5.0\Extensibility.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\bin\Debug\net5.0\ref\Extensibility.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\bin\Debug\net5.0\Extensibility.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\obj\Debug\net5.0\Extensibility.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\obj\Debug\net5.0\ref\Extensibility.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\obj\Debug\net5.0\Extensibility.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S6 - Interfaces\Extensibility\obj\Debug\net5.0\Extensibility.genruntimeconfig.cache

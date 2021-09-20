@@ -1,0 +1,16 @@
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\obj\Debug\net5.0\UpcastingDowncasting.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\obj\Debug\net5.0\UpcastingDowncasting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\obj\Debug\net5.0\UpcastingDowncasting.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\obj\Debug\net5.0\UpcastingDowncasting.AssemblyInfo.cs
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\obj\Debug\net5.0\UpcastingDowncasting.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\bin\Debug\net5.0\UpcastingDowncasting.exe
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\bin\Debug\net5.0\UpcastingDowncasting.deps.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\bin\Debug\net5.0\UpcastingDowncasting.runtimeconfig.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\bin\Debug\net5.0\UpcastingDowncasting.runtimeconfig.dev.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\bin\Debug\net5.0\UpcastingDowncasting.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\bin\Debug\net5.0\ref\UpcastingDowncasting.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\bin\Debug\net5.0\UpcastingDowncasting.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\obj\Debug\net5.0\UpcastingDowncasting.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\obj\Debug\net5.0\ref\UpcastingDowncasting.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\obj\Debug\net5.0\UpcastingDowncasting.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\UpcastingDowncasting\obj\Debug\net5.0\UpcastingDowncasting.genruntimeconfig.cache

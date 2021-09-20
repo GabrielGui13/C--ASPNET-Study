@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ConstructorsInheritance/1.0.0": {
+        "runtime": {
+          "ConstructorsInheritance.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConstructorsInheritance/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

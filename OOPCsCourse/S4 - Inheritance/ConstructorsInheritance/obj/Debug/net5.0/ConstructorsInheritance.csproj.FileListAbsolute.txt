@@ -1,0 +1,16 @@
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\bin\Debug\net5.0\ConstructorsInheritance.exe
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\bin\Debug\net5.0\ConstructorsInheritance.deps.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\bin\Debug\net5.0\ConstructorsInheritance.runtimeconfig.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\bin\Debug\net5.0\ConstructorsInheritance.runtimeconfig.dev.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\bin\Debug\net5.0\ConstructorsInheritance.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\bin\Debug\net5.0\ref\ConstructorsInheritance.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\bin\Debug\net5.0\ConstructorsInheritance.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\obj\Debug\net5.0\ConstructorsInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\obj\Debug\net5.0\ConstructorsInheritance.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\obj\Debug\net5.0\ConstructorsInheritance.AssemblyInfo.cs
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\obj\Debug\net5.0\ConstructorsInheritance.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\obj\Debug\net5.0\ConstructorsInheritance.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\obj\Debug\net5.0\ref\ConstructorsInheritance.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\obj\Debug\net5.0\ConstructorsInheritance.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\obj\Debug\net5.0\ConstructorsInheritance.genruntimeconfig.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S4 - Inheritance\ConstructorsInheritance\obj\Debug\net5.0\ConstructorsInheritance.csproj.AssemblyReference.cache

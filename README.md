@@ -4,5 +4,6 @@
 ```csharp
     cw => Console.WriteLine("");
     ctor => public ClassName (parameters) {}
+    prop => public int PropName { get; set; }
 ```
 

@@ -1,0 +1,16 @@
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\bin\Debug\net5.0\MethodOverriding.exe
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\bin\Debug\net5.0\MethodOverriding.deps.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\bin\Debug\net5.0\MethodOverriding.runtimeconfig.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\bin\Debug\net5.0\MethodOverriding.runtimeconfig.dev.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\bin\Debug\net5.0\MethodOverriding.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\bin\Debug\net5.0\ref\MethodOverriding.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\bin\Debug\net5.0\MethodOverriding.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\obj\Debug\net5.0\MethodOverriding.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\obj\Debug\net5.0\MethodOverriding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\obj\Debug\net5.0\MethodOverriding.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\obj\Debug\net5.0\MethodOverriding.AssemblyInfo.cs
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\obj\Debug\net5.0\MethodOverriding.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\obj\Debug\net5.0\MethodOverriding.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\obj\Debug\net5.0\ref\MethodOverriding.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\obj\Debug\net5.0\MethodOverriding.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\OOPCsCourse\S5 - Polymorphism\MethodOverriding\obj\Debug\net5.0\MethodOverriding.genruntimeconfig.cache
