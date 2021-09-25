@@ -1,0 +1,16 @@
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\bin\Debug\net5.0\LinqMethods.exe
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\bin\Debug\net5.0\LinqMethods.deps.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\bin\Debug\net5.0\LinqMethods.runtimeconfig.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\bin\Debug\net5.0\LinqMethods.runtimeconfig.dev.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\bin\Debug\net5.0\LinqMethods.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\bin\Debug\net5.0\ref\LinqMethods.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\bin\Debug\net5.0\LinqMethods.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\obj\Debug\net5.0\LinqMethods.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\obj\Debug\net5.0\LinqMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\obj\Debug\net5.0\LinqMethods.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\obj\Debug\net5.0\LinqMethods.AssemblyInfo.cs
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\obj\Debug\net5.0\LinqMethods.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\obj\Debug\net5.0\LinqMethods.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\obj\Debug\net5.0\ref\LinqMethods.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\obj\Debug\net5.0\LinqMethods.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\LinqMethods\obj\Debug\net5.0\LinqMethods.genruntimeconfig.cache
