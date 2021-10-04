@@ -1,0 +1,16 @@
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\bin\Debug\net5.0\NullableTypes.exe
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\bin\Debug\net5.0\NullableTypes.deps.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\bin\Debug\net5.0\NullableTypes.runtimeconfig.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\bin\Debug\net5.0\NullableTypes.runtimeconfig.dev.json
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\bin\Debug\net5.0\NullableTypes.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\bin\Debug\net5.0\ref\NullableTypes.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\bin\Debug\net5.0\NullableTypes.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\obj\Debug\net5.0\NullableTypes.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\obj\Debug\net5.0\NullableTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\obj\Debug\net5.0\NullableTypes.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\obj\Debug\net5.0\NullableTypes.AssemblyInfo.cs
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\obj\Debug\net5.0\NullableTypes.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\obj\Debug\net5.0\NullableTypes.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\obj\Debug\net5.0\ref\NullableTypes.dll
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\obj\Debug\net5.0\NullableTypes.pdb
+C:\Users\gabri\Documents\github\Csharp-ASPNET-Study\AdvancedCSCourse\NullableTypes\obj\Debug\net5.0\NullableTypes.genruntimeconfig.cache
