@@ -17,7 +17,7 @@ namespace BoxingUnboxing
 
 
             var anotherList = new List<int>(); //int as generic parameter
-            anotherList.Add(); //receives an argument of type integer, opposed to object
+            anotherList.Add(1); //receives an argument of type integer, opposed to object
             //boxing will not happen, because the list store integers and not objects
         }
     }

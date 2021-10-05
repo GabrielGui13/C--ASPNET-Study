@@ -7,7 +7,8 @@ namespace LinqMethods
 {
     class Program
     {
-        static void Main(string[] args) {
+        static void Main(string[] args)
+        {
             /* var cheapBooks = new List<Book>();
 
             foreach (var book in books) {
@@ -20,10 +21,10 @@ namespace LinqMethods
 
             // LINQ Query Operator
             var cheaperBooks = //always start with from and finish with select
-                from b in books
-                where b.Price < 10
-                orderby b.Title
-                select b.Title;
+            from b in books
+            where b.Price < 10
+            orderby b.Title
+            select b.Title;
 
             // LINQ Extension Methods
             var cheapBooks = books
@@ -37,10 +38,10 @@ namespace LinqMethods
             Console.WriteLine($"Highest priced book is called {higherPricedBook.Title}");
 
             //Linq methods can chain in each other
-		    //cheapBooks after Select (used for projections or transformations) is now an array of strings (book's titles)
+            //cheapBooks after Select (used for projections or transformations) is now an array of strings (book's titles)
 
             foreach (var book in cheapBooks) Console.WriteLine(book);
-			//Console.WriteLine(book.Title + " " + book.Price);
+            //Console.WriteLine(book.Title + " " + book.Price);
 
             Console.WriteLine(); //blank space
 
@@ -88,7 +89,7 @@ namespace LinqMethods
             Console.WriteLine(maximumPrice);
 
             Console.WriteLine(); //blank space
-            
+
 
             var minimumPrice = books.Min(b => b.Price); //max of something of the list
             Console.WriteLine(minimumPrice);
