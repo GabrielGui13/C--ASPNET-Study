@@ -10,6 +10,21 @@ namespace Vidly.Controllers
 {
     public class MoviesController : Controller //cria um controller herdado da classe Controller
     {
+        public ActionResult Index()
+        {
+            var movieList = new List<Movie>
+            {
+                new Movie { Name = "Shrek" },
+                new Movie { Name = "Wall-E" }
+            };
+
+            var viewModel = new IndexMovieViewModel
+            {
+                Movies = movieList
+            };
+
+            return View(viewModel);
+        }
         // GET: Movies/Random
         public ActionResult Random() //cria um action Random para retornar uma view, deve-se criar a view com o mesmo nome
         {
@@ -39,7 +54,7 @@ namespace Vidly.Controllers
         }
 
         // movies
-        public ActionResult Index(int? pageIndex, string sortBy) //string type is a reference type and already nullable
+        public ActionResult IndexDemo(int? pageIndex, string sortBy) //string type is a reference type and already nullable
         {
             if (!pageIndex.HasValue) pageIndex = 1; //se nao tem valor, o default eh 1
             if (String.IsNullOrWhiteSpace(sortBy)) sortBy = "Name";
