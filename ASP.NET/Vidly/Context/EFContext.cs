@@ -21,7 +21,8 @@ namespace Vidly.Context
     {
 
         public EFContext() : base(Connection.connectString) { }
-        public DbSet<Customer> customer { get; set; }
-        public DbSet<Movie> movie { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<MembershipType> MembershipTypes { get; set; }
     }
 }

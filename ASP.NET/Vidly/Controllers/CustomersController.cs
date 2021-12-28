@@ -5,35 +5,42 @@ using System.Web;
 using System.Web.Mvc;
 using Vidly.Models;
 using Vidly.ViewModels;
+using Vidly.Context;
 
 namespace Vidly.Controllers
 {
     public class CustomersController : Controller
     {
-        private List<Customer> customerList = new List<Customer>
+        private EFContext _context;
+
+        public CustomersController()
         {
-            new Customer { Id = 1, Name = "John Smith" },
-            new Customer { Id = 2, Name = "Mary Willians" }
-        };
+            _context = new EFContext();
+        }
+
         // GET: Customers
         public ActionResult Index() {
+            var customers = _context.Customers.ToList();
+
             var viewModel = new IndexCustomerViewModel
             {
-                Customers = customerList
+                Customers = customers
             };
 
             return View(viewModel);
         }
         public ActionResult Details(long id)
         {
-            var viewModel = new IndexCustomerViewModel
-            {
-                Customers = customerList
-            };
+            var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
 
-            if (id > viewModel.Customers.Count) return HttpNotFound();
+            if (customer == null) return HttpNotFound();
 
-            return View(viewModel.Customers[(int)id - 1]);
+            return View(customer);
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
         }
     }
 }
