@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data.Entity;
 using Vidly.Models;
 using Vidly.ViewModels;
 using Vidly.Context;
@@ -20,14 +21,10 @@ namespace Vidly.Controllers
 
         // GET: Customers
         public ActionResult Index() {
-            var customers = _context.Customers.ToList();
 
-            var viewModel = new IndexCustomerViewModel
-            {
-                Customers = customers
-            };
+            var customers = _context.Customers.Include(c => c.MembershipType).ToList(); //include is necessary to access membershiptype (foreign relationship) attributes, is called eager loading
 
-            return View(viewModel);
+            return View(customers);
         }
         public ActionResult Details(long id)
         {
