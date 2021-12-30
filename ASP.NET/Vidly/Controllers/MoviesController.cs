@@ -39,6 +39,7 @@ namespace Vidly.Controllers
 
             var viewModel = new MovieFormViewModel
             {
+                Movie = new Movie(),
                 Genres = genres
             };
 
@@ -59,8 +60,20 @@ namespace Vidly.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Movie movie)
         {
+            if (!ModelState.IsValid)
+            {
+                var viewModel = new MovieFormViewModel
+                {
+                    Movie = movie, //populate the form with values included in request data
+                    Genres = db.Genres.ToList()
+                };
+
+                return View("CustomerForm", viewModel); //basically the same as edit controller, but it's not full
+            }
+
             if (movie.Id == 0)
                 db.Movies.Add(movie);
             else
