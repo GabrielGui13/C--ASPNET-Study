@@ -266,3 +266,13 @@ C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vid
 C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.SetNameToMembershipType.resources
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateToCustomer.resources
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.SetBirthdateToFirstCustomer.resources
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.UpdateMoviesModleAndCreateGenreModel.resources
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.PopulateGenresTable.resources
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.PopulateMoviesTable.resources
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.PendingModelChanges.resources
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.DateAddedFixTry.resources
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\ASP.NET\Vidly\obj\Debug\Vidly.Migrations.DateAddedFixingCheck.resources

@@ -3,28 +3,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data.Entity;
+using System.Data.Entity;
 using Vidly.Models;
 using Vidly.ViewModels;
+using Vidly.Context;
 
 namespace Vidly.Controllers
 {
     public class MoviesController : Controller //cria um controller herdado da classe Controller
     {
+        public EFContext db;
+        public MoviesController()
+        {
+            db = new EFContext();
+        }
         public ActionResult Index()
         {
-            var movieList = new List<Movie>
-            {
-                new Movie { Name = "Shrek" },
-                new Movie { Name = "Wall-E" }
-            };
+            var movieList = db.Movies.Include(m => m.Genre).ToList();
 
-            var viewModel = new IndexMovieViewModel
-            {
-                Movies = movieList
-            };
-
-            return View(viewModel);
+            return View(movieList);
         }
+        public ActionResult Details(long id)
+        {
+            var movie = db.Movies.Include(m => m.Genre).SingleOrDefault(m => m.Id == id);
+
+            if (movie == null) return HttpNotFound();
+
+            return View(movie);
+        } 
         // GET: Movies/Random
         public ActionResult Random() //cria um action Random para retornar uma view, deve-se criar a view com o mesmo nome
         {
@@ -66,6 +73,11 @@ namespace Vidly.Controllers
         public ActionResult ByReleaseDate(int year, int month)
         {
             return Content(year + "/" + month);
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            db.Dispose();
         }
     }
 }

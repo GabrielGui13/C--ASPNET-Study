@@ -1,20 +1,24 @@
-﻿@model Vidly.ViewModels.IndexMovieViewModel
+﻿@model IEnumerable<Vidly.Models.Movie>
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Movies</h1>
-@if (Model.Movies.Count != 0)
+@if (Model.Any())
 {
     <table class="table table-bordered table-hover">
         <thead>
-        <td rowspan="1">Movie</td>
+            <tr>
+                <td>Movie</td>
+                <td>Genre</td>
+            </tr>
         </thead>
-        @foreach (var movie in Model.Movies)
+        @foreach (var movie in Model)
         {
             <tr>
-                <td>@movie.Name</td>
+                <td>@Html.ActionLink(movie.Name, "Details", "Movies", new {id = movie.Id}, null)</td>
+                <td>@movie.Genre.Name</td>
             </tr>
         }
     </table>
