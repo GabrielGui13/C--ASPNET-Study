@@ -12,15 +12,20 @@ namespace Vidly.Models
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
+
         [ForeignKey("Genre")]
         [Required]
         public int GenreId { get; set; }
         public Genre Genre { get; set; }
+
+        [Display(Name = "Release Date")]
         [Required]
         public DateTime ReleaseDate { get; set; }
 
         [DefaultValue("getutcdate()")]
         public DateTime? DateAdded { get; set; } = DateTime.Now;
+
+        [Display(Name = "Number in Stock")]
         [Required]
         public int NumberInStock { get; set; }
 

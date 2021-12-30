@@ -32,6 +32,51 @@ namespace Vidly.Controllers
 
             return View(movie);
         } 
+
+        public ActionResult Create()
+        {
+            var genres = db.Genres.ToList();
+
+            var viewModel = new MovieFormViewModel
+            {
+                Genres = genres
+            };
+
+            return View("MovieForm", viewModel);
+        }
+
+        public ActionResult Edit(int id)
+        {
+            var movie = db.Movies.SingleOrDefault(m => m.Id == id);
+
+            var viewModel = new MovieFormViewModel
+            {
+                Movie = movie,
+                Genres = db.Genres.ToList()
+            };
+
+            return View("MovieForm", viewModel);
+        }
+
+        public ActionResult Save(Movie movie)
+        {
+            if (movie.Id == 0)
+                db.Movies.Add(movie);
+            else
+            {
+                var movieInDb = db.Movies.Single(m => m.Id == movie.Id);
+
+                movieInDb.Name = movie.Name;
+                movieInDb.ReleaseDate = movie.ReleaseDate;
+                movieInDb.GenreId = movie.GenreId;
+                movieInDb.NumberInStock = movie.NumberInStock;
+            }
+            
+            db.SaveChanges();
+
+            return RedirectToAction("Index", "Movies");
+        }
+
         // GET: Movies/Random
         public ActionResult Random() //cria um action Random para retornar uma view, deve-se criar a view com o mesmo nome
         {
@@ -46,19 +91,19 @@ namespace Vidly.Controllers
                 new Customer { Name = "Customer 2" },
             };
 
-            var viewModel = new RandomMovieViewModel //class added at folder ViewModels
+/*            var viewmodel = new randommovieviewmodel //class added at folder viewmodels
             {
-                Movie = movie,
-                Customers = customers
-            };
+                movie = movie,
+                customers = customers
+            };*/
 
-            return View(viewModel); //returns the view Random.cshtml
+            return View(); //returns the view Random.cshtml
         }
 
-        public ActionResult Edit(int id) //need to be edit?movieId=1, just edit/1 would crash the app, because in RouteConfig, id is the default
+/*        public ActionResult Edit(int id) //need to be edit?movieId=1, just edit/1 would crash the app, because in RouteConfig, id is the default
         {
             return Content("id=" + id); //int id comes in the url
-        }
+        }*/
 
         // movies
         public ActionResult IndexDemo(int? pageIndex, string sortBy) //string type is a reference type and already nullable
