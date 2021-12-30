@@ -40,6 +40,7 @@ namespace Vidly.Controllers
 
             var viewModel = new CustomerFormViewModel
             {
+                Customer = new Customer(), //default values
                 MembershipTypes = membershipTypes
             };
 
@@ -47,8 +48,20 @@ namespace Vidly.Controllers
         }
 
         [HttpPost] //can only be called with post
+        [ValidateAntiForgeryToken] //used to prevent request data hack attack called CSRF attack, needs Html.AntiForgeryToken inside the form
         public ActionResult Save(Customer customer) //bind the model to request data
         {
+            if (!ModelState.IsValid) //validation based on data annotations in model
+            {
+                var viewModel = new CustomerFormViewModel
+                {
+                    Customer = customer, //populate the form with values included in request data
+                    MembershipTypes = db.MembershipTypes.ToList()
+                };
+
+                return View("CustomerForm", viewModel); //basically the same as edit controller, but it's not full
+            }
+
             if (customer.Id == 0) //it means it's creating a new one (id is not selected in form)
                 db.Customers.Add(customer);
             else

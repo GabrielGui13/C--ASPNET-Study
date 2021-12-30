@@ -4,7 +4,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@if (Model.Customer == null)
+@if (Model.Customer == null || Model.Customer.Id == 0)
 {
     <h2 class="mt-3">New Customer</h2>
 }
@@ -16,17 +16,21 @@ else
 <!-- when we use the "using" syntax, it automattically calls a Dispose object, which closes the Html.BeginForm, which is a form tag -->
 @using (Html.BeginForm("Save", "Customers"))
 {
+    @Html.ValidationSummary(true, "Please fix the following errors") //true to hide list of errors on top
     <div class="form-group my-3">
         @Html.LabelFor(m => m.Customer.Name)
         @Html.TextBoxFor(m => m.Customer.Name, new { @class = "form-control" })
-    </div>
-    <div class="form-group my-3">
-        @Html.LabelFor(m => m.Customer.Birthdate)
-        @Html.TextBoxFor(m => m.Customer.Birthdate, "{0:d MMM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.Name)
     </div>
     <div class="form-group my-3">
         @Html.LabelFor(m => m.Customer.MembershipTypeId)
         @Html.DropDownListFor(m => m.Customer.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select Membership Type", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.MembershipTypeId)
+    </div>
+    <div class="form-group my-3">
+        @Html.LabelFor(m => m.Customer.Birthdate)
+        @Html.TextBoxFor(m => m.Customer.Birthdate, "{0:d MMM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.Birthdate)
     </div>
     <div class="form-check checkbox my-3">
         <label>
@@ -35,7 +39,16 @@ else
         </label>
     </div>
     @Html.HiddenFor(m => m.Customer.Id)
+    @Html.AntiForgeryToken()
     <button type="submit" class="btn btn-primary">Save</button>
 }
 
 @Html.ActionLink("Back", "Index", "Customers")
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+    //used to enable client-side validation equal to server-side validations using jquery
+    //not enabled by default
+    //doesn't work to custom validators models as Min18YearsIfAMember
+    //in this case keep both validators (client-side and server-side) working
+}
