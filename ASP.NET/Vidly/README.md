@@ -25,3 +25,8 @@
 * @Html.ValidationSummary(true, "Custom message") => used to display all validation errors in a list, when true is passed by parameter, a custom message can be set to show only once above the form
 * @Html.AntiForgeryToken() => used to prevent CSRF attacks, by maintaining data in cookies, to enable it, this attribute needs to be inside the form tag and [ValidateAntiForgeryToken] needs to be used in form target action
 * @section scripts { @Scripts.Render("~/bundles/jqueryval") } => used to enable bundles, in this case its enabling jquery validation in client-side
+
+#### Packages
+* Install-Package Microsoft.AspNet.WebApi.Core -Version 5.2.7 => Enable https requests
+* Install-Package Microsoft.AspNet.WebApi.WebHost => Enable https requests
+* Install-Package Microsoft.EntityFramework => Enable database ORM

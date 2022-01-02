@@ -82,6 +82,7 @@ namespace Vidly.Controllers
             return RedirectToAction("Index", "Customers");
         }
 
+        [HttpPost]
         public ActionResult Edit(int id)
         {
             var customer = db.Customers.SingleOrDefault(c => c.Id == id);
