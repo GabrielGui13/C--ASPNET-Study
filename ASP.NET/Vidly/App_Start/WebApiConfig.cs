@@ -14,6 +14,7 @@ namespace Vidly.App_Start
             var settings = config.Formatters.JsonFormatter.SerializerSettings;
             settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
             settings.Formatting = Formatting.Indented;
+            //camelcase notation to json body
 
             config.MapHttpAttributeRoutes();
 

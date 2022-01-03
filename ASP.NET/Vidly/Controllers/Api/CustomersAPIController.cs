@@ -19,6 +19,7 @@ using AutoMapper;
 //um arquivo webapiconfig.cs precisa ser criado em App_Start
 //precisa inicializar a config de web api em Global.asax
 //dependencias importantes => System.Net; System.Net.Http; System.Web; System.Web.Http; System.Web.Optimization; System.Web.Routing;
+//usar IHttpActionResult para retornar o json pois tem como usar o codigo http e inserir headers
 
 //automapper
 // baixar a dependencia automapper -version:4.1.0
@@ -29,7 +30,7 @@ using AutoMapper;
 namespace Vidly.Controllers
 {
     //works because we created a WebApiConfig.cs in App_start and initialized in Global.asax
-    public class CustomersAPIController : ApiController
+    public class CustomersAPIController : ApiController //works like an api because inherit ApiController
     {
         private EFContext db;
 
@@ -45,21 +46,24 @@ namespace Vidly.Controllers
         }
 
         // GET /api/customers/1
-        public CustomerDto GetCustomer(int id)
+        public IHttpActionResult GetCustomer(int id)
         {
             var customer = db.Customers.SingleOrDefault(c => c.Id == id);
 
-            if (customer == null) throw new HttpResponseException(HttpStatusCode.NotFound); //HttpStatusCode derives from System.Net;
+            if (customer == null)
+                //throw new HttpResponseException(HttpStatusCode.NotFound); //HttpStatusCode derives from System.Net;
+                return NotFound();
 
-            return Mapper.Map<Customer, CustomerDto>(customer);
+            return Ok(Mapper.Map<Customer, CustomerDto>(customer));
         }
 
         // POST api/customers
         [HttpPost] //CustomersController => System.Web.Mvc / Here => System.Web.Http
-        public CustomerDto CreateCustomer (CustomerDto customerDto)
+        public IHttpActionResult CreateCustomer (CustomerDto customerDto)
         {
             if (!ModelState.IsValid)
-                throw new HttpResponseException(HttpStatusCode.BadRequest);
+                //throw new HttpResponseException(HttpStatusCode.BadRequest);
+                return BadRequest();
 
             var customer = Mapper.Map<CustomerDto, Customer>(customerDto);
             db.Customers.Add(customer);
@@ -67,7 +71,7 @@ namespace Vidly.Controllers
 
             customerDto.Id = customer.Id;
 
-            return customerDto;
+            return Created(new Uri(Request.RequestUri + "/" + customer.Id), customerDto);
         }
 
         // PUT /api/customers/1

@@ -13,8 +13,13 @@ namespace Vidly.App_Start
     {
         public MappingProfile()
         {
+            //dto to domain
+            Mapper.CreateMap<CustomerDto, Customer>().ForMember(c => c.Id, opt => opt.Ignore()); //to ignore "id key cannot be changed" while mapping 
+            Mapper.CreateMap<MovieDto, Movie>().ForMember(m => m.Id, opt => opt.Ignore());
+
+            //domain to dto
             Mapper.CreateMap<Customer, CustomerDto>();
-            Mapper.CreateMap<CustomerDto, Customer>();
+            Mapper.CreateMap<Movie, MovieDto>();
         }
     }
 }

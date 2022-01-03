@@ -25,7 +25,7 @@ namespace Vidly.Controllers
 
             return View(customers);
         }
-        public ActionResult Details(long id)
+        public ActionResult Details(long id)    
         {
             var customer = db.Customers.Include(c => c.MembershipType).SingleOrDefault(c => c.Id == id);
 
@@ -82,7 +82,6 @@ namespace Vidly.Controllers
             return RedirectToAction("Index", "Customers");
         }
 
-        [HttpPost]
         public ActionResult Edit(int id)
         {
             var customer = db.Customers.SingleOrDefault(c => c.Id == id);
