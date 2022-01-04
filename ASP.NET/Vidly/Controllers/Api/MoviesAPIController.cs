@@ -8,6 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Optimization;
 using System.Web.Routing;
+using System.Data.Entity;
 using Vidly.Models;
 using Vidly.Dtos;
 using Vidly.ViewModels;
@@ -39,9 +40,14 @@ namespace Vidly.Controllers
         }
 
         // GET api/moviesapi
-        public IHttpActionResult GetMovies()
+        public IEnumerable<MovieDto> GetMovies()
         {
-            return Ok(db.Movies.ToList().Select(Mapper.Map<Movie, MovieDto>)); //recebeu movies da database e mapeou em moviesdto
+            var movies = db.Movies
+                .Include(m => m.Genre)
+                .ToList()
+                .Select(Mapper.Map<Movie, MovieDto>);
+
+            return movies; //recebeu movies da database e mapeou em moviesdto
         }
         
         // GET api/moviesapi/1

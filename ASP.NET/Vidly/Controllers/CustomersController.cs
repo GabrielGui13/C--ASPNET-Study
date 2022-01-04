@@ -21,9 +21,9 @@ namespace Vidly.Controllers
 
         // GET: Customers
         public ActionResult Index() {
-            var customers = db.Customers.Include(c => c.MembershipType).ToList(); //include is necessary to access membershiptype (foreign relationship) attributes, is called eager loading
-
-            return View(customers);
+            //var customers = db.Customers.Include(c => c.MembershipType).ToList(); //include is necessary to access membershiptype (foreign relationship) attributes, is called eager loading
+            //rendered in datatables coming from our api
+            return View();
         }
         public ActionResult Details(long id)    
         {

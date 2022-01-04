@@ -24,5 +24,6 @@ namespace Vidly.Dtos
 
         [Required]
         public byte MembershipTypeId { get; set; }
+        public MembershipTypeDto MembershipType { get; set; } //instead of MembershipType, used just to show specific properties
     }
 }

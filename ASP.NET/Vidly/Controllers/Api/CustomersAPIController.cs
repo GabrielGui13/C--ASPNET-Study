@@ -13,6 +13,7 @@ using Vidly.Dtos;
 using Vidly.ViewModels;
 using Vidly.Context;
 using AutoMapper;
+using System.Data.Entity;
 
 //controller normal
 //baixar as dependencias webhost e webapi
@@ -42,7 +43,10 @@ namespace Vidly.Controllers
         // GET api/customers
         public IEnumerable<CustomerDto> GetCustomers()
         {
-            return db.Customers.ToList().Select(Mapper.Map<Customer, CustomerDto>);
+            return db.Customers
+                .Include(c => c.MembershipType)
+                .ToList()
+                .Select(Mapper.Map<Customer, CustomerDto>);
         }
 
         // GET /api/customers/1
