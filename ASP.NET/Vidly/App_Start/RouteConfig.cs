@@ -21,7 +21,7 @@ namespace Vidly
                 url: "movies/released/{year}/{month}", //parameters year and month
                 defaults: new { controller = "Movies", action = "ByReleaseDate" },
                 new { year = @"\d{4}", month = @"\d{2}" } // \d for digit, {number} for repetition
-            ); 
+            );
 
             routes.MapRoute(
                 name: "Default",

@@ -1,0 +1,28 @@
+﻿@model Vidly.Models.Movie
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@Model.Name</h1>
+
+<ul>
+    <li>
+        @Html.DisplayNameFor(model => model.Genre.Name):
+        @Html.DisplayFor(model => model.Genre.Name)
+    </li>
+    <li>
+        @Html.DisplayNameFor(model => model.ReleaseDate):
+        @Html.DisplayFor(model => model.ReleaseDate)
+    </li>
+    <li>
+        @Html.DisplayNameFor(model => model.DateAdded):
+        @Html.DisplayFor(model => model.DateAdded)
+    </li>
+    <li>
+        @Html.DisplayNameFor(model => model.NumberInStock):
+        @Html.DisplayFor(model => model.NumberInStock)
+    </li>
+</ul>
+
+@Html.ActionLink("Back", "Index", "Movies")

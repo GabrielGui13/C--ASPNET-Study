@@ -13,7 +13,6 @@ using Vidly.Dtos;
 using Vidly.ViewModels;
 using Vidly.Context;
 using AutoMapper;
-using System.Data.Entity;
 
 //controller normal
 //baixar as dependencias webhost e webapi

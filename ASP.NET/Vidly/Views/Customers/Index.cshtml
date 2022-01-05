@@ -29,6 +29,7 @@
             //add everything (scripts and stylesheet) in bundleconfig
             //no need to if and else in html either (if !Model.Any()), datatables handle everything
             //the table was previously generated getting a model list by view parameter, iterating it in a foreach, and displaying it in screen
+            //needs to add Scripts.Render("~/bundles/lib") in _Layout.cshtml
             var table = $("#customers").DataTable({
                 ajax: {
                     url: "/api/customersapi",

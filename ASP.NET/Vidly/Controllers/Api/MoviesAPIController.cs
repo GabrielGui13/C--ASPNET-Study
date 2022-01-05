@@ -8,7 +8,6 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Optimization;
 using System.Web.Routing;
-using System.Data.Entity;
 using Vidly.Models;
 using Vidly.Dtos;
 using Vidly.ViewModels;
