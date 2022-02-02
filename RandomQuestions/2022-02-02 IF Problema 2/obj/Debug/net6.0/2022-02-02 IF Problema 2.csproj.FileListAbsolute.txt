@@ -1,0 +1,15 @@
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\bin\Debug\net6.0\2022-02-02 IF Problema 2.exe
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\bin\Debug\net6.0\2022-02-02 IF Problema 2.deps.json
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\bin\Debug\net6.0\2022-02-02 IF Problema 2.runtimeconfig.json
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\bin\Debug\net6.0\2022-02-02 IF Problema 2.dll
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\bin\Debug\net6.0\ref\2022-02-02 IF Problema 2.dll
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\bin\Debug\net6.0\2022-02-02 IF Problema 2.pdb
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\obj\Debug\net6.0\2022-02-02 IF Problema 2.csproj.AssemblyReference.cache
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\obj\Debug\net6.0\2022-02-02 IF Problema 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\obj\Debug\net6.0\2022-02-02 IF Problema 2.AssemblyInfoInputs.cache
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\obj\Debug\net6.0\2022-02-02 IF Problema 2.AssemblyInfo.cs
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\obj\Debug\net6.0\2022-02-02 IF Problema 2.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\obj\Debug\net6.0\2022-02-02 IF Problema 2.dll
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\obj\Debug\net6.0\ref\2022-02-02 IF Problema 2.dll
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\obj\Debug\net6.0\2022-02-02 IF Problema 2.pdb
+C:\Users\gabri\Documentos\github\Csharp-ASPNET-Study\RandomQuestions\2022-02-02 IF Problema 2\obj\Debug\net6.0\2022-02-02 IF Problema 2.genruntimeconfig.cache
